@@ -13,9 +13,9 @@ public class MainController {
         return "main";
     }
 
-    @GetMapping("/welcome")
+    @GetMapping("/index")
     public String welcomePage() {
-        return "welcome";
+        return "index";
     }
 
 }

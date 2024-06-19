@@ -26,7 +26,7 @@ public class ApplicationConfig {
                 )
                 .formLogin(form -> form
                         .loginPage("/login")
-                        .defaultSuccessUrl("/welcome")
+                        .defaultSuccessUrl("/index")
                 )
                 .logout(logout -> logout
                         .logoutUrl("/logout")
